@@ -41,8 +41,7 @@ export default function Component() {
               </Badge>
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">Suara Kopi</h1>
               <p className="mx-auto max-w-[700px] text-xl md:text-2xl text-amber-100">
-                Where every cup tells a story. Experience the rich flavors and warm hospitality of traditional
-                Indonesian coffee culture.
+                Enjoy a cup of the finest coffee, a warm atmosphere, and unforgettable moments. Discover true pleasure in every sip.
               </p>
               <div className="space-x-4">
                 <Button size="lg" className="bg-amber-600 hover:bg-amber-700 text-white">
@@ -101,7 +100,7 @@ export default function Component() {
               </div>
               <div className="relative">
                 <Image
-                  src="/placeholder.svg?height=500&width=600"
+                  src="Kopi_1.jpg?height=500&width=600"
                   width={600}
                   height={500}
                   alt="Coffee beans and brewing equipment"
@@ -132,7 +131,7 @@ export default function Component() {
               <Card className="bg-white border-amber-200 hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">
                   <Image
-                    src="/placeholder.svg?height=200&width=300"
+                    src="Kopi_tubruk.jpg?height=200&width=300"
                     width={300}
                     height={200}
                     alt="Kopi Tubruk"
@@ -152,7 +151,7 @@ export default function Component() {
               <Card className="bg-white border-amber-200 hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">
                   <Image
-                    src="/placeholder.svg?height=200&width=300"
+                    src="eskopisusu.jpg?height=200&width=300"
                     width={300}
                     height={200}
                     alt="Es Kopi Susu"
@@ -172,7 +171,7 @@ export default function Component() {
               <Card className="bg-white border-amber-200 hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">
                   <Image
-                    src="/placeholder.svg?height=200&width=300"
+                    src="capucino.jpg?height=200&width=300"
                     width={300}
                     height={200}
                     alt="Cappuccino Suara"
@@ -192,7 +191,7 @@ export default function Component() {
               <Card className="bg-white border-amber-200 hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">
                   <Image
-                    src="/placeholder.svg?height=200&width=300"
+                    src="copiluwak.jpg?height=200&width=300"
                     width={300}
                     height={200}
                     alt="Kopi Luwak"
@@ -212,7 +211,7 @@ export default function Component() {
               <Card className="bg-white border-amber-200 hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">
                   <Image
-                    src="/placeholder.svg?height=200&width=300"
+                    src="affogato.jpg?height=200&width=300"
                     width={300}
                     height={200}
                     alt="Affogato Nusantara"
@@ -232,7 +231,7 @@ export default function Component() {
               <Card className="bg-white border-amber-200 hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">
                   <Image
-                    src="/placeholder.svg?height=200&width=300"
+                    src="coldbrewjawa.jpg?height=200&width=300"
                     width={300}
                     height={200}
                     alt="Cold Brew Jawa"
@@ -318,7 +317,7 @@ export default function Component() {
                     <MapPin className="h-6 w-6 text-amber-600 mt-1" />
                     <div>
                       <h3 className="font-semibold text-amber-900">Address</h3>
-                      <p className="text-amber-700">123 Coffee Street, Jakarta 12345, Indonesia</p>
+                      <p className="text-amber-700"> 123 Coffee Street Denpasar Timur, Bali</p>
                     </div>
                   </div>
 
@@ -326,8 +325,8 @@ export default function Component() {
                     <Clock className="h-6 w-6 text-amber-600 mt-1" />
                     <div>
                       <h3 className="font-semibold text-amber-900">Opening Hours</h3>
-                      <p className="text-amber-700">Monday - Friday: 7:00 AM - 9:00 PM</p>
-                      <p className="text-amber-700">Saturday - Sunday: 8:00 AM - 10:00 PM</p>
+                      <p className="text-amber-700">Monday - Friday: 9:00 AM - 23:00 PM</p>
+                      <p className="text-amber-700">Saturday - Sunday: 08:00 AM - 23:00 PM</p>
                     </div>
                   </div>
 
@@ -335,7 +334,7 @@ export default function Component() {
                     <Phone className="h-6 w-6 text-amber-600 mt-1" />
                     <div>
                       <h3 className="font-semibold text-amber-900">Phone</h3>
-                      <p className="text-amber-700">+62 21 1234 5678</p>
+                      <p className="text-amber-700">+62 878 5111 8381</p>
                     </div>
                   </div>
 
@@ -426,8 +425,8 @@ export default function Component() {
               <h3 className="text-lg font-semibold">Contact Info</h3>
               <div className="space-y-2 text-amber-200">
                 <p>123 Coffee Street</p>
-                <p>Jakarta 12345, Indonesia</p>
-                <p>+62 21 1234 5678</p>
+                <p>Denpasar Timur, Bali</p>
+                <p>+62 878 5111 8381</p>
                 <p>hello@suarakopi.com</p>
               </div>
             </div>
